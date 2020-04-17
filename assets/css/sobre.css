@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;  
+}
+
+.card .title {
+  color: grey;
+  font-size: 1.8rem;
+}
+
+.card .description {
+  padding: 1.4rem;
+}
+
+.card .social {
+  background-color: rgb(211, 211, 211);
+  padding: 0.5rem;
+}
+
+.card .social a {
+  text-decoration: none;
+  font-size: 2.8rem;
+  color: rgba(0, 0, 0, 0.800);
+}
+
+.about {
+  text-align: justify;
+  margin: auto;
+}
