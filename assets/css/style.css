@@ -23,7 +23,7 @@ header {
 }
 
 header .nav {
-  width: 90%;
+  width: 92.5%;
   max-width: 980px;
   margin: 0 auto; 
   display: flex;
@@ -62,11 +62,11 @@ header nav ul li a:hover {
 }
 
 main {
-  margin-top: 1.4rem;
+  margin-top: 2rem;
 }
 
 main .content {
-  width: 90%;
+  width: 92.5%;
   max-width: 980px;
   margin: 0 auto;
 
@@ -77,4 +77,45 @@ main .content {
 
 main section article {
   text-align: justify;
+}
+
+main .content iframe {
+  width: 100%;
+  height: 850px;
+}
+
+.card {
+  border: 1px solid rgb(211, 211, 211);
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .title {
+  color: grey;
+  font-size: 1.8rem;
+}
+
+.card .description {
+  padding: 1.4rem;
+}
+
+.card .social {
+  background-color: rgb(211, 211, 211);
+  padding: 0.5rem;
+}
+
+.card .social a {
+  text-decoration: none;
+  font-size: 2.8rem;
+  color: rgba(0, 0, 0, 0.800);
+}
+
+.about {
+  text-align: justify;
+  margin: auto;
 }
