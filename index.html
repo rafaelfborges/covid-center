@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COVID-19 / Home</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>COVID-19 / Home</title>
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-  <!-- Styles CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-  <header>
-    <div class="nav">
+  <body>
+    <header class="navbar">
       <h1>COVID-19</h1>
       <nav>
         <ul>
@@ -22,36 +20,130 @@
           <li><a href="saiba.html">Saiba&nbsp;Mais</a></li>
         </ul>
       </nav>
-    </div>
-  </header>
+    </header>
 
-  <main>
     <section class="content">
-      <article class="news-card">
-        <h1>Notícia</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Quisque eget dolor et nunc laoreet tincidunt.
-          Morbi porttitor orci ultrices turpis varius feugiat.
-          Vestibulum posuere eleifend mi.
-          Mauris sed vestibulum mi, sollicitudin tincidunt elit.
-          Maecenas at purus at lorem suscipit malesuada ut eget justo.</p>
+      <article>
+        <a
+          class="news-link"
+          href="https://www.saude.gov.br/noticias/agencia-saude/46751-brasil-registra-36-599-casos-confirmados-de-coronavirus-e-2-347-mortes"
+        >
+          <div
+            class="news-card"
+            style="background-image: url('/assets/images/covid-news-01.jpg');"
+          >
+            <h2>Ministério da Saúde</h2>
+            <div class="label">
+              <p>
+                Brasil registra 36.599 casos confirmados e 2.347 mortes por
+                coronavírus neste sábado, 18 de Abril.
+              </p>
+            </div>
+          </div>
+        </a>
       </article>
-      <article class="news-card">
-        <h1>Notícia</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Quisque eget dolor et nunc laoreet tincidunt.
-          Morbi porttitor orci ultrices turpis varius feugiat.
-          Vestibulum posuere eleifend mi.
-          Mauris sed vestibulum mi, sollicitudin tincidunt elit.
-          Maecenas at purus at lorem suscipit malesuada ut eget justo.</p>
+
+      <article>
+        <div class="news-card">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/rPU28Sa9OJw"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
+
+      <article>
+        <a
+          class="news-link"
+          href="http://portal.anvisa.gov.br/noticias/-/asset_publisher/FXrpx9qY7FbU/content/o-novo-coronavirus-pode-ser-transmitido-por-alimentos-/219201"
+        >
+          <div
+            class="news-card"
+            style="background-image: url('/assets/images/covid-news-03.jpg');"
+          >
+            <h2>Anvisa</h2>
+            <div class="label">
+              <p>
+                É possível se contaminar com o novo coronavírus através dos
+                alimentos? A Anvisa enalteceu os cuidados que devem ser tomados
+                neste post.
+              </p>
+            </div>
+          </div>
+        </a>
+      </article>
+
+      <article>
+        <a
+          class="news-link"
+          href="https://jc.ne10.uol.com.br/pernambuco/2020/04/5606440-coronavirus--saiba-como-manter-uma-alimentacao-saudavel-na-quarentena.html"
+        >
+          <div
+            class="news-card"
+            style="background-image: url('/assets/images/covid-news-04.jpg');"
+          >
+            <h2>UOL - Jornal do Commercio</h2>
+            <div class="label">
+              <p>
+                Como manter uma alimentação saúdavel na quarentena? Veja as
+                principais dicas dos especialistas em nutrição sobre o tema.
+              </p>
+            </div>
+          </div>
+        </a>
+      </article>
+
+      <article>
+        <div
+          class="news-card"
+          style="background-image: url('/assets/images/covid-news-05.jpg');"
+        >
+          <h2>Jovem Nerd</h2>
+
+          <div class="label">
+            <p>Saúde Mental na Quarentena. Ouça agora!</p>
+            <audio controls>
+              <source
+                src="https://nerdcast.jovemnerd.com.br/nerdcast_719_quarentena.mp3"
+                type="audio/mpeg"
+              />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <a
+          class="news-link"
+          href="https://www.futura.org.br/11-cursos-gratuitos-para-se-especializar-durante-a-quarentena/"
+        >
+          <div
+            class="news-card"
+            style="background-image: url('/assets/images/covid-news-06.jpg');"
+          >
+            <h2>Futura</h2>
+            <div class="label">
+              <p>
+                Como se especializar na quarentena? A Futura da 11 dicas para
+                quem quer evoluir nesse período.
+              </p>
+            </div>
+          </div>
+        </a>
       </article>
     </section>
-  </main>
-  <!--<footer>
-    <div class="rodape">
-      <p>Rodapé</p>
-    </div>
-  </footer>-->
-</body>
-
+    <footer>
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/rafaelfborges">Rafael Borges</a>
+        para o programa Hiring Coders da
+        <a href="https://gama.academy/">Gama Academy</a>.
+      </p>
+    </footer>
+  </body>
 </html>

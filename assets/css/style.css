@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -13,47 +13,49 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;  
+  -webkit-font-smoothing: antialiased;
 }
 
-header {
-  background-color: #D50000;
-}
-
-header .nav {
-  width: 92.5%;
-  max-width: 980px;
-  margin: 0 auto; 
+.navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   color: white;
   padding: 0.8rem;
+  margin-bottom: 15px;
+  background-color: #d50000;
 }
 
-header h1 {
+.navbar h1 {
   font-weight: 900;
 }
 
-header nav ul {
+.navbar nav ul {
   display: flex;
   list-style: none;
   padding-bottom: 5px;
 }
 
-header nav ul li a {
+.navbar nav ul li {
+  margin-right: 1.4rem;
+}
+
+.navbar nav ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar nav ul li a {
   color: white;
   font-size: 1.4rem;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 1.4rem;
 }
 
-header nav ul li a:hover {
+.navbar nav ul li a:hover {
   border-bottom: 1.5px solid white;
 }
 
@@ -61,61 +63,127 @@ header nav ul li a:hover {
   border-bottom: 1.5px solid white;
 }
 
-main {
-  margin-top: 2rem;
-}
-
-main .content {
+.content {
   width: 92.5%;
   max-width: 980px;
   margin: 0 auto;
-
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 2.5rem;
 }
 
-main section article {
+.content .news-link {
+  text-decoration: none;
+}
+
+.content .news-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  color: white;
+  background-size: cover;
+}
+
+.content .news-card h2 {
+  text-shadow: 2px 2px 4px #000000;
+  padding: 15px;
+}
+
+.content .news-card p {
+  font-size: 1.8rem;
   text-align: justify;
 }
 
-main .content iframe {
+.content .news-card .label audio {
+  padding-top: 10px;
+  width: 100%;
+}
+
+.content .news-card .label {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+
+.content .form {
   width: 100%;
   height: 850px;
 }
 
-.card {
+.content .about-info {
+  margin: auto;
+}
+
+.content .about-info h1 {
+  margin-bottom: 2rem;
+}
+
+.content .about-info ul {
+  margin: auto;
+  list-style-type: square;
+}
+
+.content .about-info li {
+  padding-bottom: 1.2rem;
+}
+
+.content .about-info a {
+  color: blue;
+}
+
+.profile-card {
   border: 1px solid rgb(211, 211, 211);
   max-width: 350px;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 }
 
-.card img {
+.profile-card img {
   width: 100%;
 }
 
-.card .title {
+.profile-card .title {
   color: grey;
   font-size: 1.8rem;
 }
 
-.card .description {
+.profile-card .description {
   padding: 1.4rem;
 }
 
-.card .social {
+.profile-card .social {
   background-color: rgb(211, 211, 211);
   padding: 0.5rem;
 }
 
-.card .social a {
+.profile-card .social a {
   text-decoration: none;
   font-size: 2.8rem;
-  color: rgba(0, 0, 0, 0.800);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .about {
   text-align: justify;
   margin: auto;
+}
+
+.about h1 {
+  margin-bottom: 2rem;
+}
+
+.about p {
+  line-height: 1.6;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+footer > p > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
 }
