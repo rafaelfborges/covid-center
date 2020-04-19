@@ -29,6 +29,16 @@ body {
   background-color: #d50000;
 }
 
+.navbar .logo {
+  text-align: right;
+}
+
+.navbar .logo small {
+  font-size: 10px;
+  float: right;
+  margin-top: -5px;
+}
+
 .navbar h1 {
   font-weight: 900;
 }
@@ -72,6 +82,17 @@ body {
   grid-gap: 2.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .content {
+    width: 92.5%;
+    max-width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2.5rem;
+  }
+}
+
 .content .news-link {
   text-decoration: none;
 }
@@ -107,7 +128,14 @@ body {
 
 .content .form {
   width: 100%;
-  height: 850px;
+  height: 800px;
+}
+
+@media screen and (max-width: 600px) {
+  .content .form {
+    width: 100%;
+    height: 900px;
+  }
 }
 
 .content .about-info {
@@ -179,7 +207,11 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 2rem;
+  padding: 2.4rem;
+}
+
+footer > p {
+  font-size: 1.4rem;
 }
 
 footer > p > a {
