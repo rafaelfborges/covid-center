@@ -1,6 +1,6 @@
 # Covid Center
 
-Desafio realizado para o programa Hiring Coders da Gama Academy, uma central de notícias sobre a Covid-19. Resolvi o desafio utilizando apenas HTML, CSS Grid e Flex.
+Desafio realizado para o programa Hiring Coders da Gama Academy, uma central de notícias sobre a Covid-19. Resolvi o desafio utilizando apenas HTML, CSS Grid e Flex. Foi feito o deploy deste projeto no [Netlify](http://covidcenter.netlify.app).
 
 ## Desafio: Página de Notícias do COVID-19
 Chegou a hora de vocês usarem tudo que aprenderam de HTML, CSS e GIT para construir uma landing page com as 6 melhores notícias sobre o COVID-19 na sua opinião. Para isso, vocês devem encontrar pelo menos dois tipos de notícia entre texto, vídeo e áudio. A página deve obrigatoriamente ter arquivos separados de HTML e CSS, ser hard coded (isso é, código proprietário seu, sem usar Bootstrap e ferramentas drag-and-drop como Wix) e estar em um repositório no GitHub.
